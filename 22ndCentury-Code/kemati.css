@@ -1,9 +1,57 @@
+html{
+    background-color: white;
+}
 body{
-    background-color: bisque;
-
+    background-color: #e3e3e3;
+    color: #1c1c1c;
+    font-family: arial, sans-serif;
+    margin: 20px;
+    padding: 32px;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
 }
+#main{
+    display: inline;
+}
+.intro{
+    max-width: 600px;
+    left: 0px;
 
-
-.my-picture{
+    display: inline-block;
+}
+#my-picture{
     float: right;
+    display: inline;
+    max-height: 340px;
+    border: 8px solid white;
+    z-index: 9999;
+    transform: rotate(-2deg);
 }
+#about-me{
+    font-style: italic;
+    font-family: cursive;
+}
+table{
+    width: 900px;
+}
+tr:nth-child(odd) td:nth-child(1){
+    border-right: 2px solid #959595;
+    font-style: italic;
+    font-weight: bold;
+    text-align: right;
+}
+td{
+    padding: 0px 40px;
+}
+#proskills > h4{
+    display: inline-block;
+}
+#proskills > p{
+    display: inline-block;
+    float: right;
+    font-style: italic;
+    font-size: 0.9em;
+    color: #585858;
+}
+
